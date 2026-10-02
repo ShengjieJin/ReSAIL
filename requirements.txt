@@ -1,0 +1,19 @@
+# Modified for ReSAIL. See NOTICE and LICENSE for attribution and terms.
+accelerate
+blobfile
+datasets
+httpx[http2]
+numba
+omegaconf
+openai
+pillow
+pyarrow
+pylatexenc
+pyyaml
+ray[default]
+ring_flash_attn
+safetensors
+sglang-router>=0.2.3
+tensorboard
+transformers
+wandb

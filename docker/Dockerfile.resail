@@ -1,0 +1,15 @@
+# Reference environment for ReSAIL training and evaluation.
+ARG BASE_IMAGE=slimerl/slime:nightly-dev-20260530a
+FROM ${BASE_IMAGE}
+
+COPY docker/tasks/resail.requirements.txt /tmp/resail.requirements.txt
+RUN python3 -m pip install --no-deps --no-build-isolation -r /tmp/resail.requirements.txt
+
+WORKDIR /workspace/slime
+COPY . /workspace/slime
+RUN python3 -m pip install --no-deps --no-build-isolation -e .
+
+ENV PYTHONPATH=/root/Megatron-LM:/workspace/slime
+ENV PYTHONPYCACHEPREFIX=/tmp/resail_pycache
+RUN python3 scripts/prepare/check_environment.py
+CMD ["bash"]

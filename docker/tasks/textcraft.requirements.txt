@@ -1,0 +1,1 @@
+# TextCraft uses a slime-native in-process adapter. No task-specific PyPI dependency is required.

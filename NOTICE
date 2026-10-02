@@ -1,0 +1,18 @@
+ReSAIL
+
+This distribution contains a modified subset of Slime:
+https://github.com/THUDM/slime
+Copyright 2025 Zhipu AI
+
+ReSAIL changes include iterative agent self-distillation, ALFWorld and
+TextCraft integration, sensitivity-guided selection, trajectory loss
+balancing, privileged retention, and experiment and evaluation workflows.
+Modified upstream files carry a ReSAIL modification notice. Existing
+copyright, license, and attribution notices are retained.
+
+The distribution also retains source attribution for code derived from
+OpenRLHF, verl, and the EleutherAI language model evaluation harness in
+the corresponding files. See LICENSE for the Apache License, Version 2.0.
+
+Model weights, task datasets, and external runtime dependencies are
+obtained separately and remain subject to their own licenses.
