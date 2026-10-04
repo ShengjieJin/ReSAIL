@@ -7,6 +7,7 @@
 </h1>
 
 <p align="center">
+  <a href="https://shengjiejin.github.io/projects/resail/">Project Page</a> ·
   <a href="https://huggingface.co/collections/HuggingJin/resail-6ab8e06426ca99d03aabfa0f" title="Public model collection">
     <img src="https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=FFD21E" alt="Hugging Face Models">
   </a>
